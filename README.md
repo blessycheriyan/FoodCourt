@@ -10,6 +10,9 @@ Web Technologies      : Django(2.0),Html,Css,Javascript
 
 Database              : Sqlite
 
+#Live Webiste - https://foodcourt-production-6878.up.railway.app/
+
+
 ### Screenshot
 
 ###### Home page
@@ -32,3 +35,16 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+Basic Steps to ensure to deploy in railway
+Steps to Run in Locally:
+
+create virtual env :- python -m venv env
+
+Step 1 Enable the existing virtual env path for Command :
+
+env\scripts\activate
+
+---   
+STATIC_ROOT=os.path.join(BASE_DIR,'assests') in settings.py
+
+python manage.py collectstatic 

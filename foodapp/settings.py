@@ -25,7 +25,7 @@ SECRET_KEY = '*qwvu5+co-z4(@my1c(90h*)cbejnp)%d+k1f645sh(9ul=&07'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['foodcourt-production-6878.up.railway.app','*']
 #Changes Add
 
 AUTH_USER_MODEL= 'webapp.User'

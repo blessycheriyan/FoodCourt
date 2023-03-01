@@ -26,7 +26,7 @@ SECRET_KEY = '*qwvu5+co-z4(@my1c(90h*)cbejnp)%d+k1f645sh(9ul=&07'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+#Changes
 
 AUTH_USER_MODEL= 'webapp.User'
 # Application definition

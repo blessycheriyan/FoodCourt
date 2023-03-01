@@ -50,7 +50,12 @@ STATIC_ROOT=os.path.join(BASE_DIR,'assests') in settings.py
 python manage.py collectstatic 
 
 #Whenever some issue populating for continuously push in master :
+
 git fetch origin master:tmp
+
 git rebase tmp
+
 git push origin HEAD:master
+
 git branch -D tmp
+
